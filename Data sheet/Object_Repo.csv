@@ -1,0 +1,412 @@
+Field_name,Field_locator_name,Field_locator_value
+welcome_signup,xpath,//div[@class='jss28']/button[2]/span
+signup_first_name,xpath,//input[@id='first-name-field']
+signup_last_name,xpath,//input[@id='last-name-field']
+signup_email_id,xpath,//input[@id='email-field']
+signup_phone_number,xpath,//input[@id='phoneno-field']
+signup_password,xpath,//input[@id='password-field']
+signup_confirm_password,xpath,//input[@id='repassword']
+signup_terms_and_conditions,xpath,//input[@type='checkbox']
+firstname_valid_msg,xpath,//p[@id='first-name-field-helper-text']
+lastname_valid_msg,xpath,//p[@id='last-name-field-helper-text']
+emailid_valid_msg,xpath,//p[@id='email-field-helper-text']
+phonenumber_valid_msg,xpath,//p[@id='phoneno-field-helper-text']
+password_valid_msg,xpath,//p[@id='password-field-helper-text']
+passwordstrength_valid_msg,xpath,//p[@id='strength-title']
+signup_referral_code,xpath,//input[@id='referral-field']
+passwordmatch_valid_msg,xpath,//p[@id='repassword-helper-text']
+signup,xpath,//button[@id='signup-button']/span[@class='MuiButton-label']
+welcome_login,xpath,//span[@class='MuiButton-label']
+login_phone_number,xpath,//input[@id='inputUsername']
+login_password,xpath,//input[@id='inputPassword']
+login_validate_msg,xpath,//div[@class='content']/div[6]/div[2]/input
+login_negative_validate_msg,xpath,//div[@class='content']/div[2]/div[2]
+login_title,xpath,//h4[@id='sub-heading']
+signup_title,xpath,//p[@id='heading']
+welcome_page_title,xpath,"//h2[contains(text(),""It's time to take control of your healthcare!"")]"
+plus_one,xpath,/html/body/form/div/div[2]/div[4]/div/div[2]/span
+forgot_password_link,xpath,//a[@id='forgot-password']
+forgot_password_title,xpath,//div[@id='page-container']/h2
+sign_up_link,xpath,//a[@id='signup']
+logout,xpath,//div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/img[1]
+login,xpath,//button[@id='login']
+phone_number_blank_valid_msg,xpath,"//p[contains(text(),'Phone number required')]"
+send_reset_link,xpath,"//*[@id=""page-container""]/button/span"
+phone_number_valid_msg,xpath,"//p[contains(text(),'Phone number should be 10 digit number')]"
+forgot_password_phoneno_exist_valid_msg,xpath,"//p[contains(text(),""Phone number doesn't exists"")]"
+forgot_password_phone_no,xpath,"//*[@id=""page-container""]/div[1]/div/input"
+send_reset_link1,xpath,"//h2[contains(text(),'Forgot password?')]"
+show_password,xpath,//div[@class='jss1 jss2']/div/div/div[5]/div/div/img
+otp,xpath,//input[@id='otp-0']
+verify,xpath,"//*[@id=""page-container""]/button/span[1]"
+login_link,xpath,//span[@id='login-link']
+header_logo,xpath,//img[@id='logo']
+help,xpath,//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[1]/img[1]
+header_frequently_asked,xpath,"//h3[contains(text(),'Frequently asked questions')]"
+logout,xpath,//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/img[1]
+your_alerts_title,xpath,"//h3[contains(text(),'Your alerts')]"
+header_alerts,xpath,//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]
+header_menu,xpath,//div[@id='header-icon-3']/div/img
+header_profile,xpath,//p[@id='item-name']
+your_profile_title,xpath,"//h3[contains(text(),'Your profile')]"
+header_ratings,xpath,"//p[contains(text(),'Your ratings')]"
+your_ratings_title,xpath,"//h3[contains(text(),'Your ratings')]"
+header_feedback,xpath,//li[@id='header-list-item-2']
+your_feedback_title,xpath,//input[@id='ideas_idea_name']
+header_contact,xpath,//li[@id='header-list-item-3']
+contact_form,xpath,//input[@id='input_4_7_3']
+header_privacy,xpath,"//p[contains(text(),'Privacy Policy')]"
+privacy_ok,xpath,//button[@id='dialogbox-button']
+header_terms,xpath,"//p[contains(text(),'Terms & Conditions')]"
+terms_ok,xpath,//button[@id='dialogbox-button']
+services,xpath,"//span[contains(text(),'Services')]"
+grid_path,xpath,//div[@class='jss1']/div[2]/div/div/div/div/div/span/div/div[2]
+bills_title,xpath,"//h3[contains(text(),'Bills')]"
+bills,xpath,"//p[contains(text(),'Bills')]"
+tab_ok,xpath,"//span[contains(text(),'OK')]"
+second_opinion_title,xpath,"//h3[contains(text(),'Second opinions')]"
+Award Points,xpath,"//h3[contains(text(),'Award points')]"
+wallet,xpath,"//p[contains(text(),'Wallet')]"
+request_second_opinion_title,xpath,"//h3[contains(text(),'Second Opinion')]"
+refer_a_friend_button,xpath,"//span[contains(text(),'Refer a Friend')]"
+refer_a_friend_title,xpath,"//h3[contains(text(),'Refer a friend')]"
+request_second_opinion_button,xpath,"//span[contains(text(),'Request a Second Opinion')]"
+forgot_password_page_title,xpath,"//h2[contains(text(),'Forgot password?')]"
+forgot_password_signup_link,xpath,//a[@id='signup']
+signup_page_title,xpath,//span[@id='signup-title']
+utilities,xpath,"//span[contains(text(),'Utilities')]"
+utilities_award_points,xpath,//img[@alt='Award Points']
+home_page_title,xpath,"//p[contains(text(),'Let’s get started')]"
+services_page_title,xpath,"//p[contains(text(),'Healthcare Records')]"
+circles_page_title,xpath,"//h1[contains(text(),'Partners in your care')]"
+award_points,xpath,"//p[contains(text(),'Award Points')]"
+circles,xpath,"//span[contains(text(),'Circles')]"
+award_point_title,xpath,"//h4[contains(text(),'Balance')]"
+home,xpath,"//span[contains(text(),'Home')]"
+wallet_page_title,xpath,"//h3[contains(text(),'Manage payments')]"
+circle_click,xpath,"//*[@id=""side-nav-pane-items""]/div/button[3]/span[1]"
+circle_header_assert,xpath,"//h1[contains(text(),'Partners in your care')]"
+circle_add_partner,xpath,"//span[contains(text(),'Add a Partner')]"
+circle_add_assert,xpath,"//h3[contains(text(),'Add a Partner')]"
+circle_select_partner,xpath,//div[@id='standard-select']
+circle_mymedicare,xpath,//body/div[@id='menu-PartnerPicker']/div[3]/ul[1]/li[1]
+circle_proceed,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/button[1]
+circle_continue,xpath,"//span[contains(text(),'Continue')]"
+circle_usernamelink,xpath,"//a[contains(text(),'Forgot username?')]"
+circle_allfieldsnumber,xpath,"//span[contains(text(),'All fields required.')] "
+circle_forgotpasswordlink,xpath,"//a[contains(text(),'Forgot password?')]"
+circle_username,xpath,//input[@id='username-textbox']
+circle_password,xpath,//input[@id='password-textbox']
+circle_eye,xpath,"//*[@id=""App""]/div/div[2]/fieldset/div[3]/div/div[1]/button"
+circle_login,xpath,//body[1]/div[2]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]/span[1]
+circle_mymedicareassert,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div/div/img"
+circles_page_title,xpath,"//h1[contains(text(),'Partners in your care')]"
+circles_add_patner_button,xpath,"//span[contains(text(),'Add a Partner')]"
+add_patner_page_title,xpath,"//h3[contains(text(),'Add a Partner')]"
+add_patner_proceed_button,xpath,"//span[contains(text(),'Proceed')]"
+mymed_username,xpath,//input[@id='username-textbox']
+mymed_password,xpath,//input[@id='password-textbox']
+mymed_username_valid_msg,xpath,"//div[contains(text(),'Error: Enter your username')]"
+mymed_password_valid_msg,xpath,"//div[contains(text(),'Error: Enter your password')]"
+mymed_login,xpath,//body[1]/div[2]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]/span[1]
+mymed_invalid_login_msg,xpath,//body/div[@id='app-root']/main[@id='main']/div[@id='App']/div[1]/div[2]/fieldset[1]/div[2]/div[1]
+mymed_blank_credential_msg,xpath,//h3[@id='alertHeader']
+utilities_add_card,xpath,"//span[contains(text(),'Add a Credit / Debit Card')]"
+utilities_save_as,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]
+utilities_name_on_card,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]
+utilities_phone_number,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/input[1]
+utilities_zip_code,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/input[1]
+utilities_address,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/input[1]
+utilities_country,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/select[1]
+utilities_state,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/select[1]
+utilities_city,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]/input[1]
+utilities_save_button,xpath,"//span[contains(text(),'Save')]"
+utilities_gridpath,xpath,//div[@class='jss1']/div[2]/div/div/div/span/div/div[2]
+utilities_add_bank,xpath,"//span[contains(text(),'Add a Bank Account')]"
+utilities_bank_saveas,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]
+utilities_account_name,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]
+utilities_routing_no,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/input[1]
+utilities_account_type,xpath,//div[@id='standard-select']
+utilities_account_number,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/input[1]
+utilities_check_box,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/label[1]/span[1]/span[1]/input[1]
+utilities_redeem_points_title,xpath,"//h3[contains(text(),'Redeem award points')]"
+awardpoints_redeem_button,xpath,"//span[contains(.,'Redeem Points')]"
+redeem_points_giftcard,xpath,//input[@id='gift-card-dropdown']
+redeem_points_amount,xpath,//input[@id='amount-gift-card-text-field']
+redeem_points_email,xpath,//input[@id='email']
+redeem_points,xpath,//button[@id='redeem']
+redeem_points_title,xpath,"//h4[contains(text(),'You have availed this gift card')]"
+goto_dashboard_button,xpath,"//span[contains(text(),'Go to Award Points Dashboard')]"
+redeem_points_history,xpath,"//p[contains(text(),'Redeemed adidas Gift Card')]"
+utilities_bank_address,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/input[1]
+utilities_bank_state,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/select[1]
+utilities_bank_city,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/input[1]
+utilities_bank_zipcode,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/input[1]
+utilities_bank_checkbox,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/label[1]/span[1]/span[1]/input[1]
+utilities_account_type_list,xpath,//div[@id='menu-accountHolderType']/div[3]/ul/li
+card_ok,xpath,"//span[contains(text(),'OK')]"
+card_page_title,xpath,"//div[contains(text(),'Card details')]"
+utilities_save_as_valid_msg,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]
+utilities_name_on_card_valid_msg,xpath,"//p[contains(text(),'Full name required')]"
+utilities_zip_code_valid_msg,xpath,"//p[contains(text(),'Zip code required')]"
+utilities_phone_number_valid_msg,xpath,"//p[contains(text(),'Phone number required')]"
+utilities_address_valid_msg,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/p[1]
+utilities_country_valid_msg,xpath,"//span[contains(text(),'Country required')]"
+utilities_state_valid_msg,xpath,"//span[contains(text(),'State required')]"
+utilities_city_valid_msg,xpath,"//p[contains(text(),'City required')]"
+utilities_card_no_valid_msg,xpath,"//p[contains(text(),'Your card number is incomplete.')]"
+utilities_expiry_date_valid_msg,xpath,"//p[contains(text(),""Your card's expiration date is incomplete."")]"
+utilities_cvc_valid_msg,xpath,"//p[contains(text(),""Your card's security code is incomplete."")]"
+utilities_zip_code_invalid_msg,xpath,"//p[contains(text(),'Invalid zip code')]"
+utilities_phone_no_invalid_msg,xpath,"//p[contains(text(),'Phone number should be 10 digit number')]"
+utilities_bank_save_as_valid_msg,xpath,"//p[contains(text(),'Field required')]"
+utilities_bank_account_holder_name_valid_msg,xpath,"//p[contains(text(),'Full name required')]"
+utilities_bank_routing_no_valid_msg,xpath,"//p[contains(text(),'Routing number required')]"
+utilities_bank_account_no_valid_msg,xpath,"//p[contains(text(),'Account number required')]"
+utilities_bank_account_holder_name_invalid_msg,xpath,"//p[contains(text(),'Invalid name')]"
+utilities_bank_routing_no_invalid_msg,xpath,"//p[contains(text(),'Routing number should be 9 digit number')]"
+utilities_bank_account_no_invalid_msg,xpath,"//p[contains(text(),'Invalid account number')]"
+utilities_bank_zip_code_invalid_msg,xpath,"//p[contains(text(),'Invalid zip code')]"
+redeem_points_amount_valid_msg,xpath,//p[@id='amount-gift-card-text-field-helper-text']
+broweser_launch_advance,xpath,"//*[@id=""details-button""]"
+broweser_launch_proceed,xpath,"//*[@id=""proceed-link""]"
+request_second_opinion_title,xpath," //h3[contains(text(),'Second Opinion')]"
+create_new_case,xpath,"//span[contains(text(),'Create New Case')]"
+so_your_price_text,xpath,"//h2[contains(text(),'Your price for a second opinion for one body part ')]"
+so_who_is_this_text,xpath,"//h2[contains(text(),'Who is this second opinion for?')]"
+so_you_are_about_to_text,xpath,"//p[contains(text(),'You are about to go to DocPanel’s site. Please hav')]"
+so_if_you_need_help_text,xpath,"//div[contains(text(),'If you need help regarding your second opinion req')]"
+so_mail_id_text,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]
+so_phone_number_text,xpath,"//a[contains(text(),'856-242-7343')]"
+so_for_more_info_text,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]
+so_other_agree_to_docpanel_checkbox,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[5]/label[1]/span[1]/span[1]/input[1]
+so_agree_to_docpanel_checkbox,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/label[1]/span[1]/span[1]/input[1]
+so_proceed_button,xpath,"//span[contains(text(),'Proceed')]"
+so_how_do_upload_link,xpath,//a[@class='how-to-video']/span
+so_don’t_have_scans_link,xpath,//div[@class='span12 page-center']/div/div[3]/div/div/div[2]/div/div[2]/div[2]/a
+so_other_checkbox,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/label[1]/span[1]/span[1]/input[1]
+so_patient_first_name,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]
+so_patient_last_name,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/input[1]
+so_patient_dob,xpath,//input[@id='date-picker-inline']
+so_patient_relationship,xpath,"//div[contains(text(),'child')]"
+so_patient_state,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/select[1]
+so_patient_gender,xpath,"//div[contains(text(),'Male')]"
+so_patient_dob_year,xpath,"//h6[contains(text(),'2021')]"
+so_dob_year_ok,xpath,"//span[contains(text(),'OK')]"
+so_iam_legal_guardian_checkbox,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[6]/label[1]/span[1]/span[1]/input[1]
+so_patient_relationship_list,xpath,//div[@id='menu-']/div[3]/ul[1]/li
+so_upload_scans_page_title,xpath,//div[@class='span12 page-center']/div/div/div/h6/span[2]
+so_choose_file_button,xpath,//div[@class='form-group']/label/input
+so_upload_scans_button,xpath,//div[@class='span12 page-center']/div/div[3]/div/div/div[2]/div/div[2]/div/a
+so_don’t_have_scans_ok,xpath,//div[@class='span12 page-center']/div/div[6]/div/div/div/div[3]/div[2]/a
+so_upload_report_button,xpath,//div[@class='span12 page-center']/div/div[3]/div/div[2]/div[2]/div/label/input
+so_don’t_have_doctors_checkbox,xpath,//div[@class='span12 page-center']/div/div[3]/div/div[2]/div[2]/div[2]/label/span
+so_upload_report,xpath,//div[@class='span12 page-center']/div/div[7]/div/div/div/div[3]/div[2]/div/div/label/span
+so_i_dont_have_it,xpath,//div[@class='span12 page-center']/div/div[7]/div/div/div/div[3]/div[3]/label
+so_close_button,xpath,//div[@class='span12 page-center']/div/div[6]/div/i
+so_choose_file_title,xpath,//div[@class='content']/div[4]/h2
+so_upload_scan_close_button,xpath,//div[@class='web-uploader__close-button']/i
+inner_frame,xpath,//div[@class='span12 page-center']/div/div[5]/div/div[2]/iframe
+outer_frame,xpath,//div[@class='jss4']/iframe
+so_patient_dob_month_year,xpath,//p[@class='MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter']
+so_dob_left_arrow,xpath,//div[@class='MuiPickersCalendarHeader-switchHeader']/button[1]/span[1]
+so_dob_date,xpath,//div[@class='MuiPickersSlideTransition-transitionContainer MuiPickersCalendar-transitionContainer']/div/div[2]/div[4]/button/span/p
+so_uploaded_report,xpath,//div[@class='portal__file-upload-item']/img
+refer_a_frnd_home_logo,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/img[1]
+refer_a_frnd_home_text,xpath,"//span[contains(text(),'Tell your friends about Mpowered Health')]"
+refer_a_frnd_home_button,xpath,"//span[contains(text(),'Refer a Friend')]"
+refer_a_frnd_page_title,xpath,"//h3[contains(text(),'Refer a friend')]"
+refer_a_frnd_referral_code,xpath,"//p[contains(text(),'ARNA264e')]"
+refer_a_frnd_share_link_button,xpath,//div[@id='root']/div/div[3]/div[2]/div/div/button
+refer_a_frnd_carousal_from,xpath,"//p[contains(text(),'Invite your friends to Mpowered Health by sharing ')]"
+refer_a_frnd_carousal_to,xpath,"//p[contains(text(),'They use your invitation code to signup for an Mpo')]"
+refer_a_frnd_howits_work,xpath,"//p[contains(text(),'How it works')]"
+refer_a_frnd_first_grid_text,xpath,"//p[contains(text(),'Invite your friends to Mpowered Health by sharing ')]"
+refer_a_frnd_second_grid_text,xpath,"//p[contains(text(),'They use your invitation code to signup for an Mpo')]"
+refer_a_frnd_faq_link,xpath,"//span[contains(text(),'More information & FAQ')]"
+so_self_checkbox,xpath,"//span[contains(text(),'Self')]"
+so_clinical_details_button,xpath,//div[@class='span12 page-center']/div/div[4]/div/div[2]/a
+so_first_name_validation_msg,xpath,"//p[contains(text(),'First name required')]"
+so_last_name_validation_msg,xpath,"//p[contains(text(),'Last name required')]"
+so_invalid_first_name,xpath,"//p[contains(text(),'Invalid first name')]"
+so_invalid_last_name,xpath,"//p[contains(text(),'Invalid last name')]"
+upload_scan_validation_msg,xpath,"//*[@id=""body-wrap""]/div/div/div/div/div[2]/div/div/div/div[3]/div/div[1]/div[3]/ul/li"
+upload_report_validation_msg,xpath,"//*[@id=""body-wrap""]/div/div/div/div/div[2]/div/div/div/div[3]/div/div[2]/div[4]/ul/li"
+profile_edit,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/img[1]
+profile_edit_title,xpath,"//h2[contains(text(),'Authenticate')]"
+profile_send_code,xpath,//body/div[3]/div[3]/div[1]/div[3]/button[1]
+profile_checkbox,xpath,//input[@name='sendVerificationTo']
+profile_enter_code_title,xpath,//body/div[3]/div[3]/div[1]/div[1]
+profile_verify,xpath,//body/div[3]/div[3]/div[1]/div[3]/button[1]
+security_code_valid_msg,xpath,//p[@id='security-code-helper-text']
+profile_enter_code,xpath,//input[@id='security-code']
+profile_password,xpath,//input[@id='password']
+profile_contact,xpath,"//p[contains(text(),'Review, edit contact details')]"
+profile_email_id,xpath,"//span[contains(text(),'Aarav123@mail.com')]"
+profile_firstname,xpath,//input[@id='First name-field']
+profile_lastname,xpath,//input[@id='Last name-field']
+profile_preferredname,xpath,//input[@id='Preferred name-field']
+profile_ok_button,xpath,//body/div[3]/div[3]/div[1]/div[4]/button[1]
+profile_firstname_valid_msg,xpath,//p[@id='First name-field-helper-text']
+profile_lastname_valid_msg,xpath,//p[@id='Last name-field-helper-text']
+profile_preferred_valid_msg,xpath,//p[@id='Preferred name-field-helper-text']
+profile_user_id,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[5]/div[1]/div[2]
+profile_plus,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/img[2]
+profile_add_email_title,xpath,"//h3[contains(text(),'Add email ID')]"
+profile_email,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]
+profile_email_valid_msg,xpath,"//p[contains(text(),'Email ID required')]"
+profile_email_invalid_msg,xpath,"//p[contains(text(),'Invalid email id')]"
+profile_email_exists_msg,xpath,"//p[contains(text(),'Email already exists')]"
+profile_phone_no_text,xpath,"//span[contains(text(),'+1 (444) 203 3523')]"
+profile_add_phone_title,xpath,"//h3[contains(text(),'Add phone number')]"
+profile_phone_valid_msg,xpath,"//p[contains(text(),'Phone number required')]"
+profile_phone_no,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]
+profile_phone_invalid_msg,xpath,"//p[contains(text(),'Phone number should be 10 digit number')]"
+profile_add_address_text,xpath,"//span[contains(text(),'home')]"
+profile_add_address_title,xpath,"//h3[contains(text(),'Add new address')]"
+profile_saveas_valid_msg,xpath,"//p[contains(text(),'Save as required')]"
+profile_address_valid_msg,xpath,"//p[contains(text(),'Address line 1 required')]"
+profile_city_valid_msg,xpath,"//p[contains(text(),'City required')]"
+profile_state_valid_msg,xpath,"//span[contains(text(),'State required')]"
+profile_zip_valid_msg,xpath,"//p[contains(text(),'Zip code required')]"
+profile_save_as,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/input[1]
+profile_add1,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[2]/div[1]/input[1]
+profile_city,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[4]/div[1]/input[1]
+profile_state,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[5]/select[1]
+profile_zip,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[6]/div[1]/input[1]
+profile_zip_invalid_msg,xpath,"//p[contains(text(),'Invalid zip code')]"
+profile_plan_coverage,xpath,"//p[contains(text(),'Review, edit plan coverage')]"
+profile_plan_coverage_title,xpath,"//h3[contains(text(),'Plan coverage')]"
+profile_insurer_valid_msg,xpath,"//p[contains(text(),'Insurer name required')]"
+profile_plan_firstname_msg,xpath,"//p[contains(text(),'First name required')]"
+profile_plan_lastname_msg,xpath,"//p[contains(text(),'Last name required')]"
+profile_memberid_valid_msg,xpath,"//p[contains(text(),'Member ID required')]"
+profile_groupid_valid_msg,xpath,"//p[contains(text(),'Group ID required')]"
+profile_plan_type_valid_msg,xpath,"//p[contains(text(),'Plan type required')]"
+profile_plan_firstname,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]
+profile_plan_first_invalidmsg,xpath,"//p[contains(text(),'Invalid first name')]"
+profile_password_button,xpath,"//p[contains(text(),'Edit password details')]"
+profile_password_title,xpath,"//h3[contains(text(),'Change password')]"
+profile_password_valid_msg,xpath,"//p[contains(text(),'Password cannot be empty')]"
+profile_old_password,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]
+profile_new_password,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/input[1]
+profile_confirm_password,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/input[1]
+profile_password_invalid_msg,xpath,"//p[contains(text(),'Incorrect old password')]"
+profile_plan_plus,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/img[2]
+profile_plan_lastname,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/input[1]
+profile_plan_last_invalidmsg,xpath,"//p[contains(text(),'Invalid last name')]"
+profile_plan_group,xpath,//div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[5]/div[1]/div[1]/input[1]
+profile_new_password_valid_msg,xpath,"//p[contains(text(),'Password must be 8 or more characters long.')]"
+profile_same_password,xpath,"//p[contains(text(),'You have entered same password')]"
+profile_password_match,xpath,"//p[contains(text(),'Password does not match')]"
+profile_picture,xpath,//div[@class='jss1']/div[2]/div[2]/div/img
+profile_upload_image,xpath,"//span[contains(text(),'Upload Image')]"
+profile_files,xpath,//body/div[4]/div[3]/div[1]/div[2]/h2[1]/div[1]/div[2]/div[1]/div[1]/img[1]
+profile_pic_save,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div[5]/div/div[2]/button[2]/span[1]"
+profile_pic_valid_msg,xpath,"//h4[contains(text(),'Failed to upload profile image.')]"
+bills_title_services,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/span[1]/div[1]
+bills_dropdown_option,xpath,//body/div[@id='menu-']/div[3]/ul/li
+bills_due_amount,xpath,"//h4[contains(text(),'Total bills due')]"
+bills_dropdown_box,xpath,//body/div[@id='menu-']/div[3]/ul/li
+bills_dropdown,xpath,//div[@id='standard-select']
+bills_due_amount_dollar,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]
+bills_due_section,xpath,"//span[contains(text(),'Due')]"
+bills_paid_section,xpath,"//span[contains(text(),'Paid')]"
+bills_due_message,xpath,//p[@id='NodueBills']
+bills_paid_message,xpath,//p[@id='NopaidBills']
+bills_pay_a_bill_button,xpath,"//span[contains(text(),'Pay a Bill')]"
+bills_explore_services_button,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/button[2]
+bills_zero_expenditure_img,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/img[1]
+bills_zero_expenditure_msg,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div/div[3]/div/div/p"
+bills_carousel_from,xpath,"//h4[contains(text(),'Total bills due')]"
+bills_carousel_to,xpath,"//h4[contains(text(),'Your expenses')]"
+second_opinion,xpath,"//p[contains(text(),'Second Opinions')]"
+second_opinion_resume_cases,xpath,//div[@class='jss1']/div[2]/div/div[4]/div/div/div/div/div[3]/div/span
+second_opinion_requested,xpath,"//span[contains(text(),'Requested')]"
+second_opinion_reviewed,xpath,"//span[contains(text(),'Reviewed')]"
+second_opinion_pending,xpath,"//span[contains(text(),'Pending')]"
+profile_gender,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[6]/div[1]/div[2]/div[1]
+profile_dropdownlist,xpath,//body/div[@id='menu-']/div[3]/ul/li 
+profile_bloodgrp,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[8]/div[1]/div[2]/div[1]
+profile_calender,xpath,//input[@id='date-picker-inline']
+profile_save,xpath,"//span[contains(text(),'Save')]  "
+profile_contact_assert,xpath,"//h3[contains(text(),'Contact details')]"
+profile_email_assert,xpath,"//h3[contains(text(),'Add email ID')]"
+profile_submit,xpath,"//span[contains(text(),'Submit')]"
+profile_activate,xpath,//li[2]/p
+profile_yes,xpath,"//span[contains(text(),'Yes')]"
+profile_no,xpath,"xpath=//span[contains(.,'No')]"
+profile_email_edit,xpath,"//span[contains(text(),'Hari98@gmail.com')]"
+profile_dot,xpath,"//*[@id=""full-width-tabpanel-0""]/ul/li[4]/button/span[1]/img"
+profile_mail_list,xpath,"//*[@id=""email-3-menu""]/div[3]/ul/li"
+profile_phno,xpath,"//span[contains(text(),'Phone Number')]"
+profile_phonenumber,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]
+profile_phno_code,xpath,//body/div[3]/div[3]/div[1]/div[2]/div[1]/div[1]/input[1]
+profile_phno_verify,xpath,"//span[contains(text(),'Verify')]"
+profile_phno_edit,xpath,"//span[contains(text(),'+1 (555) 123 9966')]  "
+profile_dot_phno,xpath,"//*[@id=""full-width-tabpanel-1""]/ul/li[6]/button/span[1]/img "
+profile_phno_list,xpath,"//*[@id=""phone-5-menu""]/div[3]/ul/li  "
+profile_phno_activate,xpath,"//*[@id=""full-width-tabpanel-1""]/ul/li[6]/p  "
+profile_address,xpath,"//span[contains(text(),'Address')]"
+profile_add2,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[3]/div[1]/input[1]
+profile_address_activate,xpath,"//*[@id=""full-width-tabpanel-2""]/ul/li[3]/p"
+profile_address_edit,xpath,"//p[contains(text(),'Mystreet Kingston')]"
+profile_address_back,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div[1]/div[1]/img"
+profile_dot_address,xpath,"//*[@id=""full-width-tabpanel-2""]/ul/li[3]/button/span[1]/img "
+profile_address_list,xpath,"//*[@id=""address-2-menu""]/div[3]/ul/li "
+profile_address_back,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/img[1]
+profile_plancoverage,xpath,"//p[contains(text(),'Review, edit plan coverage')]"
+profile_plan_plus,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/img[2]
+profile_addassert,xpath,"//h3[contains(text(),'Add plan')]"
+profile_planname,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div[1]/div/div/input"
+profile_plan_holderfname,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div[2]/div/div/input"
+profile_plan_holderlname,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div[3]/div/div/input"
+profile_plan_relationship,xpath,"//div[contains(text(),'self')]"
+profile_plan_memberid,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div[5]/div/div/input"
+profile_plan_groupid,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div[6]/div/div/input"
+profile_plan_type,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div[7]/div/div/input"
+profile_plan_save,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[8]/button[1]
+profile_dot_plan,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/ul/div[2]/li/button/span[1]/img"
+profile_plan_edit,xpath,"//p[contains(text(),'Star')]"
+profile_plan_editassert,xpath,"//h3[contains(text(),'Edit plan')]"
+profile_plan_back,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/img[1] 
+profile_plan_list,xpath,//body/div[4]/div[3]/ul/li
+profile_plan_activate,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/ul/div[2]/li/p"
+profile_plancoverage_back,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/img[1]
+profile_password,xpath,"//p[contains(text(),'Edit password details')]"
+profile_passwordassert,xpath,"//h3[contains(text(),'Change password')]"
+profile_oldpassword,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div/div[1]/div/div/input"
+profile_newpassword,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div/div[3]/div/div/input"
+profile_confirmpassword,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div/div[4]/div/div/input"
+profile_passwordsave,xpath,"//*[@id=""root""]/div/div[3]/div[2]/div/div[2]/div/div[6]"
+profile_oldeye,xpath,//body/div[@id='root']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]
+profile_neweye,xpath,/html/body/div[1]/div/div[3]/div[2]/div/div[2]/div/div[3]/div/div/div/img
+profile_pic_save,xpath,"//p[contains(.,'Saving data . . .')]"
+profile_confirmeye,xpath,/html/body/div[1]/div/div[3]/div[2]/div/div[2]/div/div[4]/div/div/div/img
+help_secondassert,xpath,"//*[@id=""panel0a-header""]/div[1]/p"
+help_secondabout,xpath,"//p[contains(text(),'What is a second opinion?')]"
+help_awardpoints,xpath,"//*[@id=""panel1a-header""]/div[1]/p"
+help_awardpointsabout,xpath,"//p[contains(text(),'How do I earn award points?')]"
+help_referralassert,xpath,"//*[@id=""panel2a-header""]/div[1]/p"
+help_referralabout,xpath,"//p[contains(text(),'How do I refer a friend ?')]"
+help_profileassert,xpath,"//*[@id=""panel3a-header""]/div[1]/p"
+help_profileabout,xpath,"//p[contains(text(),'Why do I always need to enter a password or authen')]"
+help_paymentassert,xpath,"//*[@id=""panel4a-header""]/div[1]/p"
+help_paymentabout,xpath,"//p[contains(text(),'How can I store my payments in Mpowered?')]"
+help_coverageassert,xpath,"//*[@id=""panel5a-header""]/div[1]/p"
+help_coverageabout,xpath,"//p[contains(text(),'What are the different relationships to the subscr')]"
+your_award_point_history,xpath,"//h2[contains(text(),'Your award points history')]"
+available_award_point,xpath,"//p[contains(text(),'Available award points')]"
+award_points_reedem,xpath,"//p[contains(text(),'Award points to redeem')]"
+redeem_award_points_title,xpath,/html/body/div[1]/div/div[3]/div[2]/div[1]/div[1]/h3
+redeemed_title,xpath,"//h3[contains(text(),'Redeemed')]"
+redeemed_points,xpath,"//h2[contains(text(),'You have redeemed 2000 points')]"
+availed_gift,xpath,"//h4[contains(text(),'You have availed this gift card')]"
+award_points_title,xpath,"//h3[contains(text(),'Award points')]"
+amount_exceed_valid_msg,xpath,//p[@id='amount-gift-card-text-field-helper-text']
+bills_page_title,xpath,"//h3[contains(text(),'Bills')]"
+alerts_header,xpath,"//h3[contains(text(),'Your alerts')]"
+profile_blank_password,xpath,//input[@id='password']
+profile_out_of_popup,xpath,//div[6]/div
+Bills,xpath,"//h3[contains(text(),'Bills')]"
+bills,xpath,"//h3[contains(text(),'Bills')]"
